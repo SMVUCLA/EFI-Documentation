@@ -1,2 +1,6 @@
 # EFI-Documentation
-Documentation for our EFI modules, both for the Data Acquisition System (DAQ) and for the internal Arduino code.
+Documentation for the EFI modules for the UCLA Supermileage Vehicle (SMV) team.
+
+This documentation covers both the internal Arduino code and the Data Acquisition (DAQ) software.
+
+Documentation will grow as necessary.
