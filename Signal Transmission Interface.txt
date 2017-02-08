@@ -42,7 +42,9 @@ Signal Transmission Interface
 	Sending/Receiving AFR Table
 		First byte is ID (4 or 5) for sending or receiving
 		Second byte is for number of rows (0 to 255)
+			Currently 10 rows
 		Third byte is for number of columns (0 to 255)
+			Currently 36 columns
 		Each subsequent 4 bytes will be the value for the given table slot
 			This means that the first set of 4 bytes will refer to table position (0,0), the second set of 4 bytes will refer to table position (0,1), and so on.
 			Once the first row is filled up, the values start to refer to the second row.
